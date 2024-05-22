@@ -6,13 +6,13 @@ test('Five percent over ten years calculates correctly', () => {
     const rate = 5;
     const years = 10;
 
-    const expected = 628.89;
+    const expectedInterestEarned = 628.89;
 
     //Act
-    const result = cI(principal, rate, years);
+    const grossInterestEarned = cI(principal, rate, years);
 
     //Assert
-    expect(result).toBe(expected);
+    expect(grossInterestEarned).toBe(expectedInterestEarned);
 });
 
 // jest intro - https://jestjs.io/docs/getting-started

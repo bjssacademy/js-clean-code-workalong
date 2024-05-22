@@ -3,10 +3,13 @@
   "version": "1.0.0",
   "description": "TDD Version of clean code",
   "main": "calculator.js",
-  "type":"module",
+  "type": "module",
   "scripts": {
     "test": "jest"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
 }
