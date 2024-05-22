@@ -1,0 +1,12 @@
+{
+  "name": "tdd",
+  "version": "1.0.0",
+  "description": "TDD Version of clean code",
+  "main": "calculator.js",
+  "type":"module",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC"
+}
